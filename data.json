@@ -1,0 +1,54 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "avatar_url": "https://i.ytimg.com/vi/C5pxHgnrz0M/maxresdefault.jpg",
+      "name": "Gerson G Junior",
+      "birth": 876441600000,
+      "gender": "M",
+      "email": "hakiso.gerson@gmail.com",
+      "letivo": "1EM",
+      "hours": "32"
+    },
+    {
+      "id": 1,
+      "avatar_url": "https://a-static.besthdwallpaper.com/jojo-bizzare-aventura-battle-tendencia-joseph-joestar-papel-de-parede-2880x1620-42457_52.jpg",
+      "name": "GABRIEL GONÇALVES DOS SANTOS",
+      "birth": 11082528000000,
+      "gender": "M",
+      "email": "imangekyousasuke@gmail.com",
+      "letivo": "7EF",
+      "hours": "123"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 2,
+      "avatar_url": "https://a-static.besthdwallpaper.com/jojo-bizzare-aventura-battle-tendencia-joseph-joestar-papel-de-parede-2880x1620-42457_52.jpg",
+      "name": "Joseph",
+      "birth": 555552000000,
+      "graduation": "medio",
+      "services": "Otaku, Virgem",
+      "created_at": 1596396256809
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://i.ytimg.com/vi/CRrnHghnMsE/maxresdefault.jpg",
+      "name": "Jotaro",
+      "birth": 555552000000,
+      "graduation": "medio",
+      "services": "Otaku, Virgem",
+      "created_at": 1596396447650
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://i.imgur.com/Si5z8Kl.jpg",
+      "name": "Jonathan",
+      "birth": 555552000000,
+      "graduation": "medio",
+      "schooling": "P",
+      "services": "Otaku, Virgem",
+      "created_at": 1596396481495
+    }
+  ]
+}
