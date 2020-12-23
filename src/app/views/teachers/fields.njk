@@ -37,9 +37,9 @@
     <div>Grau de escolaridade</div>
     <div>
         <select name="graduation" id="grau">
-            <option value="medio">Ensino Médio Completo</option>
-            <option value="superior">Ensino Superior Completo</option>
-            <option value="doutor">Mestrado e Doutorado</option>
+            <option value="medio" {% if teacher.graduation == "medio" %} selected="selected" {% endif %}>Ensino Médio Completo</option>
+            <option value="superior" {% if teacher.graduation == "superior" %} selected="selected" {% endif %}>Ensino Superior Completo</option>
+            <option value="doutor" {% if teacher.graduation == "doutor" %} selected="selected" {% endif %}>Mestrado e Doutorado</option>
         </select>
     </div>
 </div>
@@ -50,7 +50,7 @@
         <span>
             <input 
                 type="radio" 
-                name="schooling" 
+                name="schooling"
                 value="P" 
                 {% if teacher.schooling == 'P' %}
                     checked 
